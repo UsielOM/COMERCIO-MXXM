@@ -1,0 +1,25 @@
+/* Tarjetas de productos */
+.card {
+  background-color: #ffffff; /* Fondo blanco para tarjetas */
+  border: 1px solid #ced4da; /* Borde gris claro */
+}
+
+.card-title {
+  color: #212529; /* Color de título de tarjeta */
+}
+
+.card-img-top {
+  width: 100%;
+  height: 400px;
+  object-fit:scale-down;
+}
+
+.card-text, .text-muted {
+  color: #6c757d; /* Color de texto gris oscuro */
+}
+
+/* Añadir sombra suave a las tarjetas */
+.card-shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Sombra suave */
+}
+

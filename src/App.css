@@ -1,0 +1,10 @@
+body {
+  background-color: #fefeff; /* Color de fondo gris claro */
+  color: #343a40; /* Color de texto oscuro */
+}
+
+/* Encabezados y títulos */
+h1, h2, h3, h4, h5, h6 {
+  color: #212529; /* Color de texto más oscuro para encabezados */
+}
+
