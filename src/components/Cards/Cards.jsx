@@ -59,10 +59,10 @@ function Cards(props) {
                     alt={elemento.name}
                   />
                   <div className="card-body  border-secondary">
-                    <h5 className="card-title">{elemento.name}</h5>
+                    <h5 translate='no' className="card-title">{elemento.name}</h5>
                     <p className="card-text">{elemento.description}</p>
                     <div className="d-flex justify-content-between align-items-center">
-                      <span className="text-muted">{elemento.price} MXN</span>
+                      <span translate='no' className="text-muted">{elemento.price} MXN</span>
                     </div>
                   </div>
                 </div>
