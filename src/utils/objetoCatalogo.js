@@ -179,7 +179,7 @@ const objetCatalogo = [{
     },
     {
       name: 'Planificador',
-      description: 'Planeador mensuual, incluye plumones y borrador',
+      description: 'Planeador mensual, incluye plumones y borrador',
       price: 200,
       image: 'https://i.ibb.co/CJNHJHz/plan.png'
     },
