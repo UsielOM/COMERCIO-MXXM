@@ -27,7 +27,7 @@
   color: white;
 }
 .footer a:hover {
-  color: #f8f9fa;
+  color: #adb5bd;
   text-decoration: none;
 }
 .footer .social-icons img {
@@ -38,4 +38,8 @@
 
 .footer span {
   color: white;
+}
+
+.footer .fs-5 {
+  font-size: 1.25rem; /* Tamaño de fuente más grande */
 }
