@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import objetoCatalogo from '../../utils/objetoCatalogo';
+import './style.css'
 
 function Cards(props) {
   const { catalogoSeccion } = props;
@@ -48,16 +49,16 @@ function Cards(props) {
         <h1 className="text-center mb-4">Catálogo de Productos</h1>
         <h2 className="text-center mb-4">{catalogoSeccion === null ? 'LEGOS' : catalogoSeccion}</h2>
         <div id="content-catalog">
-          <div className="row" id="product-catalog">
+          <div className="row row-cols-1 row-cols-md-3 g-4" id="product-catalog">
             {currentItems.map((elemento, index) => (
               <div className="col-md-4" id="list-product" key={index}>
-                <div className="card mb-4 shadow-sm">
+                <div className="card mb-4 shadow-sm border-secondary h-100" >
                   <img
                     src={elemento.image}
                     className="card-img-top img-fluid"
                     alt={elemento.name}
                   />
-                  <div className="card-body">
+                  <div className="card-body  border-secondary">
                     <h5 className="card-title">{elemento.name}</h5>
                     <p className="card-text">{elemento.description}</p>
                     <div className="d-flex justify-content-between align-items-center">
@@ -70,7 +71,7 @@ function Cards(props) {
           </div>
           {/* Renderizar botones de paginación */}
           <nav>
-            <ul className="pagination justify-content-center">
+            <ul className="pagination justify-content-center pading-paginacion">
               {pageNumbers.map(number => (
                 <li key={number} className={`page-item ${number === currentPage ? 'active' : ''}`}>
                   <button onClick={() => paginate(number)} className="page-link">

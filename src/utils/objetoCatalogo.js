@@ -2,7 +2,7 @@
 const objetCatalogo = [{
   LEGOS: [
     {
-      name: 'LEGO stitch',
+      name: 'LEGO Stitch',
       description: 'Objeto armable de Stitch.',
       price: 35,
       image: 'https://i.ibb.co/hLdJpPz/azul.png'
@@ -90,31 +90,31 @@ const objetCatalogo = [{
   VASOS:[
     {
       name: 'Vaso Mickey Dorado',
-      description: 'Un vaso con la imagen de Mickey en dorado.',
+      description: 'Un vaso con diseño de Mickey en dorado.',
       price: 140,
       image: 'https://i.ibb.co/6HB4ySd/mickey-dorado.png'
     },
     {
       name: 'Vaso Mickey Verde',
-      description: 'Un vaso con la imagen de Mickey en verde.',
+      description: 'Un vaso con diseño de Mickey en verde.',
       price: 140,
       image: 'https://i.ibb.co/ZVbCxnH/Mickey-verd.png'
     },
     {
       name: 'Vaso Mickey Arcoiris',
-      description: 'Un vaso con la imagen de Mickey con diseño arcoiris.',
+      description: 'Un vaso con diseño de Mickey en arcoiris.',
       price: 140,
       image: 'https://i.ibb.co/Jj9YZsw/vaso-Mickey-arcoiris.png'
     },
     {
       name: 'Vaso Mickey Color',
-      description: 'Un vaso con la imagen de Mickey con varios colores.',
+      description: 'Un vaso con diseño de Mickey con varios colores.',
       price: 140,
       image: 'https://i.ibb.co/4p2MBDt/vaso-Mickey-color.png'
     },
     {
       name: 'Vaso Mickey Morado',
-      description: 'Un vaso con la imagen de Mickey en morado.',
+      description: 'Un vaso con diseño de Mickey en morado.',
       price: 140,
       image: 'https://i.ibb.co/CBmQSF3/vaso-Mickey-morado.png'
     },
@@ -153,7 +153,7 @@ const objetCatalogo = [{
   TERMOS: [
     {
       name: 'Termo Lata Light',
-      description: 'Un termo con diseño de lata light.',
+      description: 'Un termo con diseño de lata Corona light.',
       price: 140,
       image: 'https://i.ibb.co/MN6xxXC/lata-light.png'
     },
@@ -165,7 +165,7 @@ const objetCatalogo = [{
     },
     {
       name: 'Termo Lata Extra',
-      description: 'Un termo con diseño de lata Extra.',
+      description: 'Un termo con diseño de lata Corona Extra.',
       price: 140,
       image: 'https://i.ibb.co/SJmN1vm/lata-extra.png'
     }
@@ -173,19 +173,19 @@ const objetCatalogo = [{
   OTROS: [
     {
       name: 'Tenis Adidas',
-      description: 'Unos tenis Adidas.',
+      description: 'Tenis Adidas, modelo altasport k No. 23 ',
       price: 600,
       image: 'https://i.ibb.co/mSHkyPx/Adidas.png'
     },
     {
       name: 'Planificador',
-      description: 'Un artículo que representa un planificador.',
+      description: 'Planeador mensuual, incluye plumones y borrador',
       price: 200,
       image: 'https://i.ibb.co/CJNHJHz/plan.png'
     },
     {
       name: 'Mochila',
-      description: 'Un artículo que representa una mochila.',
+      description: 'Mochila y 4 bolsas más.',
       price: 350,
       image: 'https://i.ibb.co/fNVRYGP/moch.png'
     }

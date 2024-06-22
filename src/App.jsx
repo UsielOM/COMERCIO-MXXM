@@ -17,7 +17,6 @@ function App () {
   const manejarDatosDesdeHijo = (datos) => {
     // Aquí puedes manejar los datos recibidos, por ejemplo:
     setDatosRecibidos(datos);
-
   };
 
   return (
@@ -28,7 +27,10 @@ function App () {
     </header>
     <Cards catalogoSeccion= {datosRecibidos}></Cards>
     <ButtonFloat></ButtonFloat>
+
+    <section id="contact" >
     <Foter></Foter>
+    </section>
       </>
 );
 }
